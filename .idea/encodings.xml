@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/fourth/CalendarTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/fourth/EmployeeTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/fourth/Manager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/fourth/ManagerTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/third/BigIntegerTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/third/Input.java" charset="GBK" />
+  </component>
+</project>
