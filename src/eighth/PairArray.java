@@ -16,13 +16,13 @@ public class PairArray extends Pair {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InstantiationException, IllegalAccessException {
 //        Pair<String>[] table = new Pair<String>[10]; //不能创建参数化类型的数组
 //        Pair<String>[] table=(Pair<String>[]) new Pair<?>[10];
         Collection<Pair<String>> table2 = new ArrayList<>();
         Pair<String> pair1 = new Pair<>("sa","dsd");
         Pair<String> pair2 = new Pair<>("rz","dc");
-//        Pair<String> p = Pair.makePair(String::new);
+        Pair<String> p = Pair.makePair(String.class);
         addAll(table2,pair1,pair2);
         System.out.println(table2.size());
     }

@@ -30,4 +30,8 @@ public class Pair<T> {
     public void setSecond(T second) {
         this.second = second;
     }
+
+    public static <T> Pair<T> makePair(Class<T> tClass) throws IllegalAccessException, InstantiationException {
+        return  new Pair<>(tClass.newInstance(),tClass.newInstance());
+    }
 }
